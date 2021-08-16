@@ -1,1 +1,1 @@
-<img src='img-src/Project---Pixel-Art.gif' width='700'/>
+<img src='img-src/Project---Pixel-Art.gif' width='500'/>
