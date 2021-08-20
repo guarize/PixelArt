@@ -10,7 +10,7 @@
   <body>
     <!-- Header -->
     <header id="header-container">
-      <h1 id="title">Paleta de Cores</h1>
+      <h1 id="title">Color Palette</h1>
     </header>
     <main>
       <!-- Color Palette -->
@@ -23,14 +23,16 @@
       <!-- Choose Grid Size -->
       <section id="board-size-container">
         <form>
-          Tamanho:
-          <input type="number" id="board-size" min="1" value="5" />
-          <button type="button" id="generate-board">VQV</button>
+          <label for="board-size"
+            >Grid Size:
+            <input type="number" id="board-size" min="1" value="5" />
+          </label>
+          <button type="button" id="generate-board">Set</button>
         </form>
       </section>
       <section id="board-container">
         <div>
-          <button type="button" id="clear-board">Limpar</button>
+          <button type="button" id="clear-board">Clear</button>
         </div>
         <table id="pixel-board"></table>
       </section>
